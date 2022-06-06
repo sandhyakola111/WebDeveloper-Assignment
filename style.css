@@ -85,6 +85,118 @@ input[type="search"] {
       background: transparent url("Web/MenuHamburger.svg") no-repeat center;
       margin-left: 50px;
   }
+
+.triangle{
+    font-size: 9px;
+}
+.Sneakers{
+    opacity: 0.3;
+}
+.breadcrumb{
+    margin-left: 50%;
+}
+.main{
+    margin-left: 50%;
+    padding-top: 20px;
+}
+.name{
+    font-size: 50px;
+    width: 400px;
+    color: #19202C;
+    line-height: 1;
+    margin-bottom: 10px;
+}
+#price{
+    margin-top: 15px;
+}
+.price{
+    font-size: 30px;
+    font-weight: bold;
+    margin-right: 10px;
+}
+.old-price{
+    font-size: 15px;
+    text-decoration: line-through;
+    opacity: 0.6;
+}
+.description{
+    margin-top: 15px;
+    width: 500px
+}
+.specifications{
+    display: flex;
+    margin: 10px;
+}
+.specification{
+    margin: 25px;
+    text-align: center;
+}
+.colors{
+    border: 1px solid #EDEDED;
+    border-radius: 50px;
+    padding: 5px;
+    width: 70px;
+    margin-top: 5px;
+}
+.col{
+    height: 17px;
+    width: 17px;
+    border-radius: 50%;
+    border: 1px solid #EDEDED;
+}
+.black{
+    background-color: black;
+}
+.white{
+    background-color: #F3F3F3;
+}
+.brown{
+    background-color: #7A3050;
+}
+.colors select{
+    border: none;
+    padding: 0 20px 0 0;
+}
+.quant span{
+    padding: 8px;
+}
+.cart-wish{
+    padding: 10px;
+}
+/* .cart-wish{
+    background-color: #3F88EB;
+    height: 20px;
+    width: 150px;
+    border-radius: 50px;
+} */
+.add-to-cart{
+    height: 60px;
+    width: 200px;
+    background-color: #3F88EB;
+    border:none;
+    position: relative;
+    border-radius: 30px;
+    color:white;
+    font-size: 20px;
+}
+.wishlist{
+    height: 60px;
+    width: 200px;
+    border:none;
+    position: relative;
+    font-size: 15px;
+    background-color: white;
+    position: relative;
+
+}
+/* .wishlist-text{
+    margin-bottom: 15px;
+} */
+
+.delivery{
+    margin-top: 15px;
+}
+
 footer{
     width: 100%;
     text-align: center;
