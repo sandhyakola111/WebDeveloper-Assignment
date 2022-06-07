@@ -1,92 +1,120 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- <meta http-equiv="X-UA-Compatible" content="IE=edge"/> -->
+    <meta name="viewport" content="initial-scale=1.0, width=device-width">
     <title>Assessment</title>
-    <link type="text/css" rel="stylesheet" href="style.css">
+    <link type="text/css" rel="stylesheet" href="home.css">
+    <link href='https://fonts.googleapis.com/css?family=Lato:display=swap' rel='stylesheet'>
+    <link href='https://fonts.googleapis.com/css?family=Playfair+Display:display=swap' rel='stylesheet'>
 </head>
+
 <body>
-    <section id="navbar">
-        <div class="navbar-brand first">
-            <h1><a href = "#">MIKE</a></h1>
-        </div>
-        <div class = "navbar-nav second">
-            <div class = "search">
-                <input type="search" placeholder="Search" name="search">
-                <button type="submit">Seach</button>
+    <div class="container">
+        <div id="leftSection">
+            <div class="sideBar">
+                <h2>MIKE</h2>
+                <img src='Web/ShoeLarge.png' />
+                <footer>
+                    <div class="social-icons">
+                        <button class="social-icon facebook"></button>
+                        <button class="social-icon twitter"></button>
+                        <button class="social-icon instagram"></button>
+                    </div>
+                </footer>
             </div>
-            <div class="cart">
-                <button class="cart-icon"></button>
-                <button class="cart-count">0</button>
-            </div>
-            <div class="menu-toggle">
-                <button class="toggle-icon"></button>
-            </div>
-        </div>
-    </section>
-    <section id="breadcrumb">
-        <div class="second breadcrumb">
-            <p>Main <span class="triangle">&#10148;</span> Shoes <span class="triangle">&#10148;</span> <span class = "Sneakers">Gray Running Sneakers</span></p>
-        </div>
-    </section>
-    <section class = "main">
-    <div class = "second">
-        <h1 class = "name">Black Running Sneakers</h1>
-    </div>
-    <div class = "stars">
-        <p>&#11088; &#11088; &#11088; &#11088; <a href = "#">18 votes </a></p>
-    </div>
-    <div id = "price">
-        <p><span class = "price">&#8377;16,959.99</span> <span class = "old-price">&#8377;20,069.99</span> </p>
-    </div>
-    <div class = "description">
-        <p>Neoprene and membrane boots. Rubber insert with lacing over foot and back on heel. Lining and insole of the membrane.</p>
-    </div>
-    <div class = "specifications">
-        <div class = " specification color">
-            <p>COLOR</p>
-            <div class = "colors">
-                <button class = "col black"></button>
-                <button class = "col white"></button>
-                <button class = "col brown"></button>
-            </div>
-        </div>
-        <div class = "specification size">
-            <p>SIZE</p>
-            <div class = "colors">
-                <select>
-                    <option>48</option>
-                </select>
-            </div>
-        </div>
-        <div class = "specification quantity">
-            <p>QUANTITY</p>
-            <div class = "colors quant">
-                <p><span>-</span><span>3</span><span>+</span></p>
-
-            </div>
-        </div>
-    </div>
-    <div>
-        <div class = "cart-wish">
-            <button class = "add-to-cart"><img src="Web/AddToCart.svg">&nbsp;&nbsp;<span class = "cart-text">Add to cart</span></button>
-            <button class = "wishlist"><img src="Web/Like.svg">&nbsp;&nbsp;<span class = "wishlist-text">Save to wishlist</span></button>
 
         </div>
+        <div id="rightSection">
+            <div id="navbar">
+                <div class="navbar-nav second">
+                    <div class="navbar-name">
+                        <h1>MIKE</h1>
+                    </div>
+                    <div class="search">
+                        <input type="search" placeholder="Search" name="search" class="search-input">
+                        <button type="submit" class="search-icon">Seach</button>
+                    </div>
+                    <div class="cart">
+                        <button class="cart-icon"></button>
+                        <button class="cart-count">0</button>
+                    </div>
+                    <div class="menu-toggle">
+                        <button class="toggle-icon"></button>
+                    </div>
+                </div>
+            </div>
 
-    </div>
-    <div>
-        <p class = "delivery">Standard delivery in 2-4 days or Premium delivery in 2-4 hours</p>
-    </div>
-    </section>   
-    <footer>
-        <div class="first social-icons">
-            <button class="social-icon facebook"></button>
-            <button class="social-icon twitter"></button>
-            <button class="social-icon instagram"></button>
+            <div class="main">
+                <div id="breadcrumb">
+                    <div class="second breadcrumb">
+                        <p>Man <span class="triangle">&#10148;</span> Shoes <span class="triangle">&#10148;</span>
+                            <span class="Sneakers">Gray Running Sneakers</span>
+                        </p>
+                    </div>
+                </div>
+                <div class="product-details">
+                    <h1 class="name">Black Running Sneakers</h1>
+                    <img src='Mobile/ShoeSmall.png' class="mobile-img" />
+                </div>
+                <div class="stars">
+                    <p>&#11088; &#11088; &#11088; &#11088;  &#11088;<a href="#">18 votes </a></p>
+                </div>
+                <div id="price">
+                    <p><span class="price">&#8377;16,959.99</span> <span class="old-price">&#8377;20,069.99</span> </p>
+                </div>
+                <div class="description">
+                    <p>Neoprene and membrane boots. Rubber insert with lacing over foot and back on heel. Lining and
+                        insole of
+                        the membrane.</p>
+                </div>
+                <div class="specifications">
+                    <div class=" specification color">
+                        <p>COLOR</p>
+                        <div class="colors">
+                            <button class="col black"></button>
+                            <button class="col white"></button>
+                            <button class="col brown"></button>
+                        </div>
+                    </div>
+                    <div class="specification size">
+                        <p>SIZE</p>
+                        <div class="colors">
+                            <select>
+                                <option>48</option>
+                            </select>
+                        </div>
+                    </div>
+                    <div class="specification quantity">
+                        <p>QUANTITY</p>
+                        <div class="colors quant">
+                            <p><span>-</span><span>3</span><span>+</span></p>
+
+                        </div>
+                    </div>
+                </div>
+
+                <div class="cart-wish">
+                    <button class="add-to-cart">
+                        <img src="Web/AddToCart.svg" /><span class="cart-text">Add
+                            to
+                            cart</span></button>
+                    <button class="wishlist"><img src="Web/Like.svg"><span class="wishlist-text">Save to
+                            wishlist</span></button>
+
+                </div>
+
+                <div>
+                    <p class="delivery">Standard delivery in 2-4 days or Premium delivery in 2-4 hours</p>
+                </div>
+            </div>
         </div>
-    </footer>
+    </div>
+
+
+
 </body>
+
 </html>
